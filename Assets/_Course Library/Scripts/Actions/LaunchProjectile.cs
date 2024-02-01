@@ -13,7 +13,7 @@ public class LaunchProjectile : MonoBehaviour
     public Transform startPoint = null;
 
     [Tooltip("The speed at which the projectile is launched")]
-    public float launchSpeed = 2.0f;
+    public float launchSpeed = 10.0f;
 
     public void Fire()
     {

@@ -9173,6 +9173,259 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void StrBoolArray_SetBit_m212C6D1A8A4C422AF97
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool StrBoolArray_GetBit_mCA50A9F3A3FA5C552305C9B762264A6058F33E78 (StrBoolArray_tCA66E1F688A4BC6FA749195F867F59E523508DD6* __this, int32_t ___aindex0, int32_t ___bindex1, const RuntimeMethod* method) ;
 // System.Int32 Unity.Burst.Intrinsics.X86/Sse4_2::ComputeStriOutput(System.Int32,System.Int32,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Sse4_2_ComputeStriOutput_m3CA291D204228F490F255CC7E2A82756F6D82BBA (int32_t ___len0, int32_t ___imm81, int32_t ___intRes22, const RuntimeMethod* method) ;
+// T Unity.Collections.LowLevel.Unsafe.UnsafeUtility::ReadArrayElement<System.Int32Enum>(System.Void*,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t UnsafeUtility_ReadArrayElement_TisInt32Enum_tCBAC8BA2BFF3A845FA599F303093BBBA374B6F0C_m6CAEC3ED8826EDDC47EEF108E08BCA6563F0CF5F_gshared (void* ___source0, int32_t ___index1, const RuntimeMethod* method) 
+{
+	{
+		void* L_0 = ___source0;
+		int32_t L_1 = ___index1;
+		uint32_t L_2 = sizeof(int32_t);
+		int32_t L_3 = (*(int32_t*)((void*)il2cpp_codegen_add((intptr_t)L_0, ((intptr_t)((int64_t)il2cpp_codegen_multiply(((int64_t)L_1), ((int64_t)((int32_t)L_2))))))));
+		return L_3;
+	}
+}
+// T Unity.Collections.LowLevel.Unsafe.UnsafeUtility::ReadArrayElement<Unity.Jobs.JobHandle>(System.Void*,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 UnsafeUtility_ReadArrayElement_TisJobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08_m174C9E551299EB97010F7F1D5B3FCD3F2B07C59C_gshared (void* ___source0, int32_t ___index1, const RuntimeMethod* method) 
+{
+	{
+		void* L_0 = ___source0;
+		int32_t L_1 = ___index1;
+		uint32_t L_2 = sizeof(JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08);
+		JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 L_3 = (*(JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08*)((void*)il2cpp_codegen_add((intptr_t)L_0, ((intptr_t)((int64_t)il2cpp_codegen_multiply(((int64_t)L_1), ((int64_t)((int32_t)L_2))))))));
+		return L_3;
+	}
+}
+// T Unity.Collections.LowLevel.Unsafe.UnsafeUtility::ReadArrayElement<UnityEngine.Experimental.GlobalIllumination.LightDataGI>(System.Void*,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR LightDataGI_t47D2197E863C0DDA40C2182FBF0A21367E468E21 UnsafeUtility_ReadArrayElement_TisLightDataGI_t47D2197E863C0DDA40C2182FBF0A21367E468E21_mA3A295126D79E3C78AE62430341208E962A9FD17_gshared (void* ___source0, int32_t ___index1, const RuntimeMethod* method) 
+{
+	{
+		void* L_0 = ___source0;
+		int32_t L_1 = ___index1;
+		uint32_t L_2 = sizeof(LightDataGI_t47D2197E863C0DDA40C2182FBF0A21367E468E21);
+		LightDataGI_t47D2197E863C0DDA40C2182FBF0A21367E468E21 L_3 = (*(LightDataGI_t47D2197E863C0DDA40C2182FBF0A21367E468E21*)((void*)il2cpp_codegen_add((intptr_t)L_0, ((intptr_t)((int64_t)il2cpp_codegen_multiply(((int64_t)L_1), ((int64_t)((int32_t)L_2))))))));
+		return L_3;
+	}
+}
+// T Unity.Collections.LowLevel.Unsafe.UnsafeUtility::ReadArrayElement<UnityEngine.Rendering.Universal.LightMinMaxZ>(System.Void*,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR LightMinMaxZ_t35F5D7C894F59869B016DD721281363A277594A6 UnsafeUtility_ReadArrayElement_TisLightMinMaxZ_t35F5D7C894F59869B016DD721281363A277594A6_m4574474268E0F9F4481F70C61830657080C9D315_gshared (void* ___source0, int32_t ___index1, const RuntimeMethod* method) 
+{
+	{
+		void* L_0 = ___source0;
+		int32_t L_1 = ___index1;
+		uint32_t L_2 = sizeof(LightMinMaxZ_t35F5D7C894F59869B016DD721281363A277594A6);
+		LightMinMaxZ_t35F5D7C894F59869B016DD721281363A277594A6 L_3 = (*(LightMinMaxZ_t35F5D7C894F59869B016DD721281363A277594A6*)((void*)il2cpp_codegen_add((intptr_t)L_0, ((intptr_t)((int64_t)il2cpp_codegen_multiply(((int64_t)L_1), ((int64_t)((int32_t)L_2))))))));
+		return L_3;
+	}
+}
+// T Unity.Collections.LowLevel.Unsafe.UnsafeUtility::ReadArrayElement<UnityEngine.Matrix4x4>(System.Void*,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 UnsafeUtility_ReadArrayElement_TisMatrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6_mBC40E7BC89A878F3423EFD5505125349A08BD8D0_gshared (void* ___source0, int32_t ___index1, const RuntimeMethod* method) 
+{
+	{
+		void* L_0 = ___source0;
+		int32_t L_1 = ___index1;
+		uint32_t L_2 = sizeof(Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6);
+		Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6 L_3 = (*(Matrix4x4_tDB70CF134A14BA38190C59AA700BCE10E2AED3E6*)((void*)il2cpp_codegen_add((intptr_t)L_0, ((intptr_t)((int64_t)il2cpp_codegen_multiply(((int64_t)L_1), ((int64_t)((int32_t)L_2))))))));
+		return L_3;
+	}
+}
+// T Unity.Collections.LowLevel.Unsafe.UnsafeUtility::ReadArrayElement<UnityEngine.ModifiableContactPair>(System.Void*,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ModifiableContactPair_t8D3CA3E20AF1718A5421A6098D633DDA67399960 UnsafeUtility_ReadArrayElement_TisModifiableContactPair_t8D3CA3E20AF1718A5421A6098D633DDA67399960_mB7D854609AF2F2527E776AA2A68959A06F818ED9_gshared (void* ___source0, int32_t ___index1, const RuntimeMethod* method) 
+{
+	{
+		void* L_0 = ___source0;
+		int32_t L_1 = ___index1;
+		uint32_t L_2 = sizeof(ModifiableContactPair_t8D3CA3E20AF1718A5421A6098D633DDA67399960);
+		ModifiableContactPair_t8D3CA3E20AF1718A5421A6098D633DDA67399960 L_3 = (*(ModifiableContactPair_t8D3CA3E20AF1718A5421A6098D633DDA67399960*)((void*)il2cpp_codegen_add((intptr_t)L_0, ((intptr_t)((int64_t)il2cpp_codegen_multiply(((int64_t)L_1), ((int64_t)((int32_t)L_2))))))));
+		return L_3;
+	}
+}
+// T Unity.Collections.LowLevel.Unsafe.UnsafeUtility::ReadArrayElement<System.Object>(System.Void*,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* UnsafeUtility_ReadArrayElement_TisRuntimeObject_m3934FD1CF24F2FA559FF1E1B68977A7BDE16ADF8_gshared (void* ___source0, int32_t ___index1, const RuntimeMethod* method) 
+{
+	{
+		void* L_0 = ___source0;
+		int32_t L_1 = ___index1;
+		uint32_t L_2 = sizeof(RuntimeObject*);
+		RuntimeObject* L_3 = (*(RuntimeObject**)((void*)il2cpp_codegen_add((intptr_t)L_0, ((intptr_t)((int64_t)il2cpp_codegen_multiply(((int64_t)L_1), ((int64_t)((int32_t)L_2))))))));
+		return L_3;
+	}
+}
+// T Unity.Collections.LowLevel.Unsafe.UnsafeUtility::ReadArrayElement<UnityEngine.Plane>(System.Void*,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Plane_tB7D8CC6F7AACF5F3AA483AF005C1102A8577BC0C UnsafeUtility_ReadArrayElement_TisPlane_tB7D8CC6F7AACF5F3AA483AF005C1102A8577BC0C_mC24229ADE94CB475E66818897BF1FD1618C547CA_gshared (void* ___source0, int32_t ___index1, const RuntimeMethod* method) 
+{
+	{
+		void* L_0 = ___source0;
+		int32_t L_1 = ___index1;
+		uint32_t L_2 = sizeof(Plane_tB7D8CC6F7AACF5F3AA483AF005C1102A8577BC0C);
+		Plane_tB7D8CC6F7AACF5F3AA483AF005C1102A8577BC0C L_3 = (*(Plane_tB7D8CC6F7AACF5F3AA483AF005C1102A8577BC0C*)((void*)il2cpp_codegen_add((intptr_t)L_0, ((intptr_t)((int64_t)il2cpp_codegen_multiply(((int64_t)L_1), ((int64_t)((int32_t)L_2))))))));
+		return L_3;
+	}
+}
+// T Unity.Collections.LowLevel.Unsafe.UnsafeUtility::ReadArrayElement<UnityEngine.Rendering.Universal.PreTile>(System.Void*,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PreTile_tC36F9BE4B86094E64EF591A02D06185EF5ECBDDD UnsafeUtility_ReadArrayElement_TisPreTile_tC36F9BE4B86094E64EF591A02D06185EF5ECBDDD_m79A82ADA23176CF405663F8F44A89BC86C1AD89F_gshared (void* ___source0, int32_t ___index1, const RuntimeMethod* method) 
+{
+	{
+		void* L_0 = ___source0;
+		int32_t L_1 = ___index1;
+		uint32_t L_2 = sizeof(PreTile_tC36F9BE4B86094E64EF591A02D06185EF5ECBDDD);
+		PreTile_tC36F9BE4B86094E64EF591A02D06185EF5ECBDDD L_3 = (*(PreTile_tC36F9BE4B86094E64EF591A02D06185EF5ECBDDD*)((void*)il2cpp_codegen_add((intptr_t)L_0, ((intptr_t)((int64_t)il2cpp_codegen_multiply(((int64_t)L_1), ((int64_t)((int32_t)L_2))))))));
+		return L_3;
+	}
+}
+// T Unity.Collections.LowLevel.Unsafe.UnsafeUtility::ReadArrayElement<UnityEngine.Rendering.RenderStateBlock>(System.Void*,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RenderStateBlock_tFC570EF2C8F3A817FECD578E385D18CEEEA06733 UnsafeUtility_ReadArrayElement_TisRenderStateBlock_tFC570EF2C8F3A817FECD578E385D18CEEEA06733_m2587A541715A1A9FFCED49CBD8F69C1F1C936076_gshared (void* ___source0, int32_t ___index1, const RuntimeMethod* method) 
+{
+	{
+		void* L_0 = ___source0;
+		int32_t L_1 = ___index1;
+		uint32_t L_2 = sizeof(RenderStateBlock_tFC570EF2C8F3A817FECD578E385D18CEEEA06733);
+		RenderStateBlock_tFC570EF2C8F3A817FECD578E385D18CEEEA06733 L_3 = (*(RenderStateBlock_tFC570EF2C8F3A817FECD578E385D18CEEEA06733*)((void*)il2cpp_codegen_add((intptr_t)L_0, ((intptr_t)((int64_t)il2cpp_codegen_multiply(((int64_t)L_1), ((int64_t)((int32_t)L_2))))))));
+		return L_3;
+	}
+}
+// T Unity.Collections.LowLevel.Unsafe.UnsafeUtility::ReadArrayElement<UnityEngine.Rendering.ShaderTagId>(System.Void*,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ShaderTagId_t453E2085B5EE9448FF75E550CAB111EFF690ECB0 UnsafeUtility_ReadArrayElement_TisShaderTagId_t453E2085B5EE9448FF75E550CAB111EFF690ECB0_m3EF7E867944D7846ADE00B11F72822FE7514BD1B_gshared (void* ___source0, int32_t ___index1, const RuntimeMethod* method) 
+{
+	{
+		void* L_0 = ___source0;
+		int32_t L_1 = ___index1;
+		uint32_t L_2 = sizeof(ShaderTagId_t453E2085B5EE9448FF75E550CAB111EFF690ECB0);
+		ShaderTagId_t453E2085B5EE9448FF75E550CAB111EFF690ECB0 L_3 = (*(ShaderTagId_t453E2085B5EE9448FF75E550CAB111EFF690ECB0*)((void*)il2cpp_codegen_add((intptr_t)L_0, ((intptr_t)((int64_t)il2cpp_codegen_multiply(((int64_t)L_1), ((int64_t)((int32_t)L_2))))))));
+		return L_3;
+	}
+}
+// T Unity.Collections.LowLevel.Unsafe.UnsafeUtility::ReadArrayElement<System.Single>(System.Void*,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float UnsafeUtility_ReadArrayElement_TisSingle_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C_m620A354B1C65964526A473BFA18DB2670E74C44C_gshared (void* ___source0, int32_t ___index1, const RuntimeMethod* method) 
+{
+	{
+		void* L_0 = ___source0;
+		int32_t L_1 = ___index1;
+		uint32_t L_2 = sizeof(float);
+		float L_3 = (*(float*)((void*)il2cpp_codegen_add((intptr_t)L_0, ((intptr_t)((int64_t)il2cpp_codegen_multiply(((int64_t)L_1), ((int64_t)((int32_t)L_2))))))));
+		return L_3;
+	}
+}
+// T Unity.Collections.LowLevel.Unsafe.UnsafeUtility::ReadArrayElement<UnityEngine.UIElements.TextVertex>(System.Void*,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TextVertex_tF56662BA585F7DD34D71971F1AA1D2E767946CF3 UnsafeUtility_ReadArrayElement_TisTextVertex_tF56662BA585F7DD34D71971F1AA1D2E767946CF3_mF4AEFBD4A2D37C7AEE65B42C4BA1664FE143A7A6_gshared (void* ___source0, int32_t ___index1, const RuntimeMethod* method) 
+{
+	{
+		void* L_0 = ___source0;
+		int32_t L_1 = ___index1;
+		uint32_t L_2 = sizeof(TextVertex_tF56662BA585F7DD34D71971F1AA1D2E767946CF3);
+		TextVertex_tF56662BA585F7DD34D71971F1AA1D2E767946CF3 L_3 = (*(TextVertex_tF56662BA585F7DD34D71971F1AA1D2E767946CF3*)((void*)il2cpp_codegen_add((intptr_t)L_0, ((intptr_t)((int64_t)il2cpp_codegen_multiply(((int64_t)L_1), ((int64_t)((int32_t)L_2))))))));
+		return L_3;
+	}
+}
+// T Unity.Collections.LowLevel.Unsafe.UnsafeUtility::ReadArrayElement<UnityEngine.UIElements.UIR.Transform3x4>(System.Void*,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform3x4_t9F79FC0112A00D3FFD7AFAD2D10AD22DF929052F UnsafeUtility_ReadArrayElement_TisTransform3x4_t9F79FC0112A00D3FFD7AFAD2D10AD22DF929052F_m13666808DCDAF77AF9A6049D56559DB3299E1467_gshared (void* ___source0, int32_t ___index1, const RuntimeMethod* method) 
+{
+	{
+		void* L_0 = ___source0;
+		int32_t L_1 = ___index1;
+		uint32_t L_2 = sizeof(Transform3x4_t9F79FC0112A00D3FFD7AFAD2D10AD22DF929052F);
+		Transform3x4_t9F79FC0112A00D3FFD7AFAD2D10AD22DF929052F L_3 = (*(Transform3x4_t9F79FC0112A00D3FFD7AFAD2D10AD22DF929052F*)((void*)il2cpp_codegen_add((intptr_t)L_0, ((intptr_t)((int64_t)il2cpp_codegen_multiply(((int64_t)L_1), ((int64_t)((int32_t)L_2))))))));
+		return L_3;
+	}
+}
+// T Unity.Collections.LowLevel.Unsafe.UnsafeUtility::ReadArrayElement<System.UInt16>(System.Void*,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t UnsafeUtility_ReadArrayElement_TisUInt16_tF4C148C876015C212FD72652D0B6ED8CC247A455_mECAA1FA8E0ADE1FAC171FED4C0C34F602D490FAF_gshared (void* ___source0, int32_t ___index1, const RuntimeMethod* method) 
+{
+	{
+		void* L_0 = ___source0;
+		int32_t L_1 = ___index1;
+		uint32_t L_2 = sizeof(uint16_t);
+		uint16_t L_3 = (*(uint16_t*)((void*)il2cpp_codegen_add((intptr_t)L_0, ((intptr_t)((int64_t)il2cpp_codegen_multiply(((int64_t)L_1), ((int64_t)((int32_t)L_2))))))));
+		return L_3;
+	}
+}
+// T Unity.Collections.LowLevel.Unsafe.UnsafeUtility::ReadArrayElement<System.UInt32>(System.Void*,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t UnsafeUtility_ReadArrayElement_TisUInt32_t1833D51FFA667B18A5AA4B8D34DE284F8495D29B_m707FE47E25CCF8779EACF56BD89D59827139D8F8_gshared (void* ___source0, int32_t ___index1, const RuntimeMethod* method) 
+{
+	{
+		void* L_0 = ___source0;
+		int32_t L_1 = ___index1;
+		uint32_t L_2 = sizeof(uint32_t);
+		uint32_t L_3 = (*(uint32_t*)((void*)il2cpp_codegen_add((intptr_t)L_0, ((intptr_t)((int64_t)il2cpp_codegen_multiply(((int64_t)L_1), ((int64_t)((int32_t)L_2))))))));
+		return L_3;
+	}
+}
+// T Unity.Collections.LowLevel.Unsafe.UnsafeUtility::ReadArrayElement<System.UInt64>(System.Void*,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t UnsafeUtility_ReadArrayElement_TisUInt64_t8F12534CC8FC4B5860F2A2CD1EE79D322E7A41AF_m4B8D1B0FEE0E615F7E854405E3533F3DA6842EE7_gshared (void* ___source0, int32_t ___index1, const RuntimeMethod* method) 
+{
+	{
+		void* L_0 = ___source0;
+		int32_t L_1 = ___index1;
+		uint32_t L_2 = sizeof(uint64_t);
+		uint64_t L_3 = (*(uint64_t*)((void*)il2cpp_codegen_add((intptr_t)L_0, ((intptr_t)((int64_t)il2cpp_codegen_multiply(((int64_t)L_1), ((int64_t)((int32_t)L_2))))))));
+		return L_3;
+	}
+}
+// T Unity.Collections.LowLevel.Unsafe.UnsafeUtility::ReadArrayElement<UnityEngine.Vector2>(System.Void*,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 UnsafeUtility_ReadArrayElement_TisVector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_m827A9F70ED00E15D74729992830810B5A1C7CC36_gshared (void* ___source0, int32_t ___index1, const RuntimeMethod* method) 
+{
+	{
+		void* L_0 = ___source0;
+		int32_t L_1 = ___index1;
+		uint32_t L_2 = sizeof(Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_3 = (*(Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)((void*)il2cpp_codegen_add((intptr_t)L_0, ((intptr_t)((int64_t)il2cpp_codegen_multiply(((int64_t)L_1), ((int64_t)((int32_t)L_2))))))));
+		return L_3;
+	}
+}
+// T Unity.Collections.LowLevel.Unsafe.UnsafeUtility::ReadArrayElement<UnityEngine.Vector3>(System.Void*,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 UnsafeUtility_ReadArrayElement_TisVector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_m512748E94A4B0323F86A5DDF93073DA2729847EB_gshared (void* ___source0, int32_t ___index1, const RuntimeMethod* method) 
+{
+	{
+		void* L_0 = ___source0;
+		int32_t L_1 = ___index1;
+		uint32_t L_2 = sizeof(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = (*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)((void*)il2cpp_codegen_add((intptr_t)L_0, ((intptr_t)((int64_t)il2cpp_codegen_multiply(((int64_t)L_1), ((int64_t)((int32_t)L_2))))))));
+		return L_3;
+	}
+}
+// T Unity.Collections.LowLevel.Unsafe.UnsafeUtility::ReadArrayElement<UnityEngine.Vector4>(System.Void*,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 UnsafeUtility_ReadArrayElement_TisVector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_m6B78BA932DFCFC6F730CDD84DCBD8C431C0235D9_gshared (void* ___source0, int32_t ___index1, const RuntimeMethod* method) 
+{
+	{
+		void* L_0 = ___source0;
+		int32_t L_1 = ___index1;
+		uint32_t L_2 = sizeof(Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3);
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_3 = (*(Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3*)((void*)il2cpp_codegen_add((intptr_t)L_0, ((intptr_t)((int64_t)il2cpp_codegen_multiply(((int64_t)L_1), ((int64_t)((int32_t)L_2))))))));
+		return L_3;
+	}
+}
+// T Unity.Collections.LowLevel.Unsafe.UnsafeUtility::ReadArrayElement<UnityEngine.UIElements.Vertex>(System.Void*,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vertex_t016AC68A2E6C62576E65412BEC71544AFC01AFC7 UnsafeUtility_ReadArrayElement_TisVertex_t016AC68A2E6C62576E65412BEC71544AFC01AFC7_m797B4A73798C16D0ADC717E02D81677936A9729F_gshared (void* ___source0, int32_t ___index1, const RuntimeMethod* method) 
+{
+	{
+		void* L_0 = ___source0;
+		int32_t L_1 = ___index1;
+		uint32_t L_2 = sizeof(Vertex_t016AC68A2E6C62576E65412BEC71544AFC01AFC7);
+		Vertex_t016AC68A2E6C62576E65412BEC71544AFC01AFC7 L_3 = (*(Vertex_t016AC68A2E6C62576E65412BEC71544AFC01AFC7*)((void*)il2cpp_codegen_add((intptr_t)L_0, ((intptr_t)((int64_t)il2cpp_codegen_multiply(((int64_t)L_1), ((int64_t)((int32_t)L_2))))))));
+		return L_3;
+	}
+}
+// T Unity.Collections.LowLevel.Unsafe.UnsafeUtility::ReadArrayElement<UnityEngine.Rendering.VisibleLight>(System.Void*,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR VisibleLight_t0A4DF5B22865A00F618A0352B805277FA0132805 UnsafeUtility_ReadArrayElement_TisVisibleLight_t0A4DF5B22865A00F618A0352B805277FA0132805_m9BA06961DEF9C609E0EC1F48966235FB25C74065_gshared (void* ___source0, int32_t ___index1, const RuntimeMethod* method) 
+{
+	{
+		void* L_0 = ___source0;
+		int32_t L_1 = ___index1;
+		uint32_t L_2 = sizeof(VisibleLight_t0A4DF5B22865A00F618A0352B805277FA0132805);
+		VisibleLight_t0A4DF5B22865A00F618A0352B805277FA0132805 L_3 = (*(VisibleLight_t0A4DF5B22865A00F618A0352B805277FA0132805*)((void*)il2cpp_codegen_add((intptr_t)L_0, ((intptr_t)((int64_t)il2cpp_codegen_multiply(((int64_t)L_1), ((int64_t)((int32_t)L_2))))))));
+		return L_3;
+	}
+}
+// T Unity.Collections.LowLevel.Unsafe.UnsafeUtility::ReadArrayElement<UnityEngine.Rendering.Universal.ZBin>(System.Void*,System.Int32)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ZBin_t2B4F59EC396F7A7EC8EE6A15C15176B9888125A5 UnsafeUtility_ReadArrayElement_TisZBin_t2B4F59EC396F7A7EC8EE6A15C15176B9888125A5_mFAA9DE620C1F495D36139266E593E7F7610EC983_gshared (void* ___source0, int32_t ___index1, const RuntimeMethod* method) 
+{
+	{
+		void* L_0 = ___source0;
+		int32_t L_1 = ___index1;
+		uint32_t L_2 = sizeof(ZBin_t2B4F59EC396F7A7EC8EE6A15C15176B9888125A5);
+		ZBin_t2B4F59EC396F7A7EC8EE6A15C15176B9888125A5 L_3 = (*(ZBin_t2B4F59EC396F7A7EC8EE6A15C15176B9888125A5*)((void*)il2cpp_codegen_add((intptr_t)L_0, ((intptr_t)((int64_t)il2cpp_codegen_multiply(((int64_t)L_1), ((int64_t)((int32_t)L_2))))))));
+		return L_3;
+	}
+}
 // T Unity.Collections.LowLevel.Unsafe.UnsafeUtility::ReadArrayElement<Unity.Mathematics.float2>(System.Void*,System.Int32)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA UnsafeUtility_ReadArrayElement_Tisfloat2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA_m4648A94D763B6E7EEEF676924D751E4FBA96554A_gshared (void* ___source0, int32_t ___index1, const RuntimeMethod* method) 
 {
